@@ -23,4 +23,4 @@ Pomodoro 1:
 - ✅ DONE add project description
 - ✅ DONE initial refactor
 - ✅ DONE examples
-- ⚠ TODO user stories
+- ✅ DONE user stories
