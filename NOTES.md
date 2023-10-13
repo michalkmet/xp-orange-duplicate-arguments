@@ -21,6 +21,6 @@ Pomodoro 1:
 
 - ✅ DONE Plan pomodoro 1
 - ✅ DONE add project description
-- ⚠ TODO initial refactor
+- ✅ DONE initial refactor
 - ⚠ TODO examples
 - ⚠ TODO user stories
