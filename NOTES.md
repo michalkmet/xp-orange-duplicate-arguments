@@ -29,5 +29,5 @@ As a user, I want to pass in 1 or 2 arguments, so that I can see if there are an
 - ✅ DONE UAT1.1: When I pass (1), Then it should return false
 - ✅ DONE UAT1.2: When I pass (1, 1), Then it should return true
 - ✅ DONE UAT1.3: When I pass ('a','b'), Then it should return false
-- ⚠ TODO UAT1.4: When I pass ('b','b'), Then it should return true
+- ✅ DONE UAT1.4: When I pass ('b','b'), Then it should return true
 - ⚠ TODO UAT1.5: When I pass (2,'2'), Then it should return false
