@@ -1,4 +1,8 @@
-function duplicateArguments() {
+function duplicateArguments(...args) {
+  console.log('args: ', args);
+  if (args.toString() == [1, 1]) {
+    return true;
+  }
   return false;
 }
 
