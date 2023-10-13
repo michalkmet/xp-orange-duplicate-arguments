@@ -7,4 +7,7 @@ describe('User Story 1: simple cases: 1 or 2 arguments', () => {
   it('UAT1.2: When I pass (1, 1), Then it should return true', () => {
     expect(duplicateArguments(1, 1)).toBe(true);
   });
+  it("UAT1.3: When I pass ('a','b'), Then it should return false", () => {
+    expect(duplicateArguments('a', 'b')).toBe(false);
+  });
 });
