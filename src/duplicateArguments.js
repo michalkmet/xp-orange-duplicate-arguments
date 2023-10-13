@@ -1,5 +1,5 @@
 function duplicateArguments() {
-  return 'hello';
+  return false;
 }
 
 module.exports = duplicateArguments;

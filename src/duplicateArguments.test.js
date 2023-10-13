@@ -1,7 +1,7 @@
 const duplicateArguments = require('./duplicateArguments');
 
-describe('hello', () => {
-  it('should return hello', () => {
-    expect(duplicateArguments()).toBe('hello');
+describe('User Story 1: simple cases: 1 or 2 arguments', () => {
+  it('UAT1.1: When I pass (1), Then it should return false', () => {
+    expect(duplicateArguments(1)).toBe(false);
   });
 });
