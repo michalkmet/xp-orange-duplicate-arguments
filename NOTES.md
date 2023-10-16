@@ -38,5 +38,5 @@ As a user, I want to pass in more than 2 arguments, so that I can see if there a
 - ✅ DONE UAT2.1: When I pass (1, 2, 3), Then it should return false
 - ✅ DONE UAT2.2: When I pass (1, 2, 3, 2), Then it should return true
 - ✅ DONE UAT2.3: When I pass ('1', '2', '3', '2'), Then it should return true
-- ⚠ TODO UAT2.4: When I pass ('a', 'b', 'c', 'd', 'A'), Then it should return false
+- ✅ DONE UAT2.4: When I pass ('a', 'b', 'c', 'd', 'A'), Then it should return false
 - ⚠ TODO UAT2.5: When I pass ('a', 'b', 'c', 'd', 'a'), Then it should return true

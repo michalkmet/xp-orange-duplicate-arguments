@@ -28,4 +28,7 @@ describe('User Story 2: more than 2 arguments', () => {
   it("UAT2.3: When I pass ('1', '2', '3', '2'), Then it should return true", () => {
     expect(duplicateArguments('1', '2', '3', '2')).toBe(true);
   });
+  it("UAT2.4: When I pass ('a', 'b', 'c', 'd', 'A'), Then it should return false", () => {
+    expect(duplicateArguments('a', 'b', 'c', 'd', 'A')).toBe(false);
+  });
 });
