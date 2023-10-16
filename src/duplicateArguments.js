@@ -1,7 +1,11 @@
 function duplicateArguments(...args) {
-  console.log('args: ', args);
-  if (args.toString() == [1, 1] || args.toString() == ['b', 'b']) {
-    return true;
+  const alreadyInArray = [];
+  for (let i = 0; i < args.length; i++) {
+    if (!alreadyInArray.includes(args[i])) {
+      alreadyInArray.push(args[i]);
+    } else {
+      return true;
+    }
   }
   return false;
 }
