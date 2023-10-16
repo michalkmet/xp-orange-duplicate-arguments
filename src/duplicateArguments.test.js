@@ -17,3 +17,9 @@ describe('User Story 1: simple cases: 1 or 2 arguments', () => {
     expect(duplicateArguments(2, '2')).toBe(false);
   });
 });
+
+describe('User Story 2: more than 2 arguments', () => {
+  it('UAT2.1: When I pass (1, 2, 3), Then it should return false', () => {
+    expect(duplicateArguments(1, 2, 3)).toBe(false);
+  });
+});
